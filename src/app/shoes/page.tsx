@@ -1,6 +1,7 @@
 import React from 'react'
 import About from '../about/page'
 import { watch } from 'fs'
+import Image from 'next/image'
 
 export const shoes = () => {
 
@@ -24,7 +25,7 @@ export const shoes = () => {
         
        {shoesData.map((shoes)=>(
         <div key={shoes.id} className="shoes-card"> 
-        <img src={shoes.image} alt={shoes.name}/>
+        <Image src={shoes.image} alt={shoes.name}/>
         <h3>{shoes.name}</h3>
         <p>{shoes.description}</p>
         <div className='price'>${shoes.price}</div>
