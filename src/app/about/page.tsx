@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const About = () => {
+export default function About  (){
   return (
     <div>
      <section className='about' style={{backgroundImage: "url(aboutbackground.jpg)"}}>
@@ -13,4 +13,4 @@ export const About = () => {
   )
 }
 
-export default About
+
