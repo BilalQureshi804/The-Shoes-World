@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const contact = () => {
+export default function contact  () {
   return (
     <div>
      <section className='contact-form'>
@@ -20,4 +20,4 @@ export const contact = () => {
   )
 }
 
-export default contact;
+
